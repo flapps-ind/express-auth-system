@@ -1,0 +1,26 @@
+{
+  "name": "auth-sys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/index.mjs",
+    "start": "node index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "type": "module"
+}
